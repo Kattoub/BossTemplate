@@ -1,0 +1,66 @@
+body{
+	background-image: url("header_bg.jpg");
+	background-repeat: no-repeat;
+}
+
+main{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+
+.logo{
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+.fa{
+	font-size: 35px;
+	display: block;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+ul{
+	list-style: none;
+	display: inline-flex;
+	padding: 0;
+	margin-left: 30px;
+}
+
+span{
+	color: rgba(255, 255, 255, 0.8);
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 5px 0 5px 0;
+}
+
+li{
+	margin-left: 10px;
+	display: inline-block;
+	padding: 0;
+	text-align: center;
+}
+
+.Home, .Features, .Pages, .Portfolio, .Blog, .FAQ, .FAQImg, .HomeImg, .FeaturesImg, .Contact, .ContactImg, .PagesImg, .PortfolioImg, .BlogImg{
+	color: rgba(255, 255, 255, 0.8);
+	width: 600px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav{
+	margin-left: 1255px;
+	width: 250px;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 50px;
+}
+
+.clickableAwesomeFont{
+     cursor: pointer
+}
